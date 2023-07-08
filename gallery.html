@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Example</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&family=Poppins:wght@100;200;300&family=Roboto:wght@300;400;700&display=swap');
+  
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body,
+      .container {
+        height: 100%;
+        background-color: whitesmoke;
+        margin-top: 20px;
+        position: fixed;
+        
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+        flex-direction: row;
+        margin: 100px;
+
+      }
+      .item {
+        width: 300px;
+        aspect-ratio: 1;
+        font-size: 40px;
+    
+      }
+
+      div {
+        margin-bottom: 400px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      span {
+        margin-bottom: 300px;
+      
+      }
+
+      a {
+        color: blue;
+      }
+
+      img {
+        width: 200px;
+        height: 400px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+           
+      }
+      h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 5px;
+        font-size: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+      }
+
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+      
+      <div>
+        <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" alt="" />
+        <p>
+            <h4>
+                01/
+            </h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+          delectus provident soluta illum aperiam voluptas, quae perspiciatis
+          maxime blanditiis voluptatibus quam pariatur ipsa sint temporibus,
+          accusantium facere. Ipsam, atque autem!
+        </p>
+        <a href="">Read more</a>
+      </div>
+
+      <span>
+
+        <h1>TRAVEL</h1>
+        <h1>EXPERIENC</h1>
+
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" alt="" />
+        <p>
+            <h4>
+                02/
+            </h4>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem enim
+          provident voluptatem nulla nihil sunt magni, blanditiis minima,
+          eveniet, nam officia atque excepturi aut vero. Officia unde numquam
+          quod perspiciatis.
+        </p>
+        <a href="">Read more</a>
+      </span>
+
+      <div>
+        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" alt="" />
+        <p>
+            <h4>
+                03/
+            </h4>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem enim
+          provident voluptatem nulla nihil sunt magni, blanditiis minima,
+          eveniet, nam officia atque excepturi aut vero. Officia unde numquam
+          quod perspiciatis.
+        </p>
+        <a href="">Read more</a>
+      </div>
+
+      
+       
+    </div>
+  </body>
+</html>
