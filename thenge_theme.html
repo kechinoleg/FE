@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Theme Example</title>
+
+    <style>
+        body {
+            transition: .5s;
+        }
+        .is-dark {
+            background: rgb(15, 6, 40);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        About company
+    </h1>
+
+    <div>
+        <button onclick="toggle_theme()">
+            Сменить цв/схему
+        </button>
+    </div>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nobis quis in dolorem voluptate, vitae quo expedita debitis esse, officia illo omnis corporis ipsa incidunt fugit temporibus nesciunt! Dignissimos facilis, sit nam expedita soluta nostrum reiciendis similique ratione aliquam. Odit nemo nam repellendus magnam neque, nostrum culpa, molestiae obcaecati corrupti possimus doloribus. In, architecto, ab officia tempora ipsam soluta ratione unde cupiditate cumque blanditiis assumenda. Ratione, autem repellat laudantium fugiat natus magni quas reiciendis aspernatur sequi repellendus obcaecati, labore repudiandae dolor corrupti sed ex eaque dolorem doloribus tempora ipsam est facilis nostrum. Fuga quis laborum consectetur totam? Reiciendis, rerum! Delectus aut inventore cupiditate ducimus eius ea nulla, doloremque sit eos nobis obcaecati. Quas est asperiores molestiae, quae ex iusto blanditiis numquam corrupti eligendi pariatur autem tenetur ad ut error nobis voluptates possimus at obcaecati quaerat sed deserunt sapiente! Eaque, ipsum accusamus atque ab nihil iste quod ut itaque sit, quos saepe non quas, hic necessitatibus fuga illo! Officia eveniet dolor recusandae in consequuntur, ipsam necessitatibus animi quae, illo pariatur cumque corporis blanditiis temporibus reprehenderit debitis fuga ipsa doloribus eaque laboriosam mollitia repellat numquam aperiam, delectus amet. Nam repellat cum fuga? Est, sint perspiciatis pariatur aspernatur cupiditate consectetur dolor accusamus tempora maiores minus distinctio optio molestiae natus voluptate odio, exercitationem, veniam nesciunt recusandae quod fuga nemo nulla aliquam dolorem. Similique expedita quasi, iusto eos, delectus quod libero omnis culpa in voluptatum recusandae, animi suscipit ipsam? Quisquam dolores odit eveniet numquam error. Praesentium maxime tenetur adipisci aut! Officia, explicabo. Recusandae officiis fuga iure quo id error aliquam, illum architecto ipsa. Alias aliquam dignissimos itaque ex culpa sed eligendi quo tempora architecto facere blanditiis, facilis at rem quaerat voluptatem repudiandae eveniet quia iste earum fuga perspiciatis necessitatibus distinctio. Ipsa blanditiis voluptatum velit voluptatem omnis odio dolorem maxime libero ex eius. Magnam, cumque adipisci.
+    </p>
+    
+    <script>
+        function toggle_theme() {
+            document.body.classList.toggle('is-dark');
+        }
+    </script>
+</body>
+</html>
