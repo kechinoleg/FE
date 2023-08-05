@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Example</title>
+
+    <style>
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        aside {
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: gold;
+            height: 100%;
+            width: 250px;
+            transform: translateX(-250px);
+            transition: 1s;
+            opacity: 0;
+        }
+        .is-open {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    
+    <aside></aside>
+
+    <div class="row">
+        <h1>
+            About company
+        </h1>
+        
+        <button onclick="toggle_menu()">
+            menu
+        </button>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam incidunt modi ex officia nam tenetur quaerat eius ipsam, delectus nostrum eveniet necessitatibus sint corrupti possimus assumenda ratione sequi blanditiis, culpa nisi consequatur mollitia quam quae praesentium! Alias unde possimus corrupti a perferendis atque vitae, veritatis quidem nulla dicta excepturi ad cum officiis asperiores delectus. Blanditiis sed veritatis cumque quo praesentium iure, cupiditate ea totam eius corrupti tempore odit deleniti eum, quas in quidem similique at obcaecati. Deserunt voluptatem, nobis earum nostrum neque repellat. Minus incidunt modi, velit vitae optio accusamus deserunt at cumque dolore atque fugiat ipsam alias aut amet, voluptate perferendis quisquam non cum autem soluta architecto laudantium nobis consectetur quia. Dolor rem maiores dolorem a error architecto aspernatur consectetur ut inventore iusto, distinctio accusantium quaerat quia similique possimus facere nihil velit perspiciatis illum quidem. Molestiae a autem eum velit voluptatum molestias dicta consequatur sed nulla veniam tempora est quae nesciunt tempore animi iure odio iste perferendis, necessitatibus optio minus totam repellat placeat? Omnis nisi sit expedita voluptatem quia non ut laboriosam minima aperiam, vel animi molestias recusandae cupiditate fugit perspiciatis inventore. Architecto quae neque iure alias officiis dicta quo, suscipit dolores provident excepturi tempore eaque, eligendi perspiciatis quibusdam? Sint debitis quaerat iste cupiditate aliquam. Quisquam ea praesentium accusamus vel soluta odit nemo omnis ducimus, pariatur laudantium, illo incidunt aut voluptatibus ipsam laborum quo! Veritatis excepturi, sint tenetur dolores a necessitatibus pariatur? At sit iste sapiente maxime vel itaque, qui assumenda beatae quos vitae dolorum ducimus porro exercitationem ea, facilis error? Hic molestiae veritatis fuga doloribus quasi itaque vitae debitis laborum error sapiente accusamus ullam aliquid explicabo dolores suscipit iste porro optio eos, enim in placeat? Reiciendis voluptas magni vel aliquam, in autem nihil molestias repellat ad totam neque dolor facere temporibus est, cum illo. Dolor fugiat, laborum dicta obcaecati accusamus minus quisquam asperiores eveniet. Beatae nihil fugiat maiores magni hic facilis libero reprehenderit, error porro iusto velit sed nam repellendus doloremque praesentium. Non, eius tenetur eveniet velit cupiditate sint perspiciatis iusto quos, officia et nobis sapiente corrupti deserunt ipsum placeat deleniti! Reiciendis, illum in exercitationem iste tenetur ea minus molestiae sit a, iure rerum voluptatem dolores beatae! Dolores ipsa praesentium inventore facilis temporibus perferendis enim necessitatibus quisquam delectus. Doloribus recusandae iste, at, explicabo facere vel dolore eos voluptatum nesciunt pariatur maxime ullam quis illum reiciendis voluptates sapiente fuga incidunt et eligendi minima. Optio ipsa eaque deleniti. Dolore earum corrupti, cupiditate velit autem iure, ducimus natus, illum ipsa beatae est magnam exercitationem provident. Reiciendis atque ex harum, corrupti provident sint deserunt corporis impedit asperiores excepturi aliquid repellat temporibus fugit inventore sed dolorum modi ea quibusdam, aspernatur exercitationem? Deserunt nulla porro amet ipsa quisquam autem placeat dolor sint cumque, laborum animi, soluta illum molestiae ad suscipit veniam dolores labore velit possimus est, commodi a perferendis. Facilis voluptas, quod at quidem id alias consectetur nam repellendus facere quisquam exercitationem voluptatum iure neque inventore iusto earum obcaecati repudiandae soluta, suscipit cum aspernatur iste esse. Quae id itaque, natus omnis dolores corrupti. Dolorum?
+    </p>
+
+    <script>
+        function toggle_menu() {
+            const menu = document.querySelector('aside');
+            menu.classList.toggle('is-open');
+        }
+    </script>
+</body>
+</html>
